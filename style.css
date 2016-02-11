@@ -1,4 +1,4 @@
-h1 {
+h1,h2 {
   background-color:gray;
   color:white;
   padding-left: 5px;
@@ -39,9 +39,26 @@ p {
 }
 
 .imagenes {
-    padding: 0;
-    margin-left: 0;
-    overflow: hidden;
-    clear: both;
-    width: 100%;
+  padding: 0;
+  margin-left: 0;
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+}
+
+textarea {
+  width: 55%;
+  height: 50%;
+  display: block;
+  margin-top: 2%;
+  border: blue solid;
+  margin-bottom: 1.5%;
+}
+
+.enviar {
+  color: blue;
+}
+
+input {
+  border:blue solid;
 }
