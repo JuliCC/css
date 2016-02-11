@@ -47,8 +47,8 @@ p {
 }
 
 textarea {
-  width: 55%;
-  height: 50%;
+  width: 40%;
+  height: 25%;
   display: block;
   margin-top: 2%;
   border: blue solid;
@@ -59,6 +59,10 @@ textarea {
   color: blue;
 }
 
-input {
+.fields{
+  margin-bottom: 20px;
+}
+
+.input-field {
   border:blue solid;
 }

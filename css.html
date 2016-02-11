@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -22,14 +22,20 @@
   </section>
   <section>
     <h2>Contáctanos</h2>
-      <label for="Name">Your name</label>
-        <input type="email" placeholder="">
-      <label for="Name">Your email</label>
-        <input type="email" placeholder="">
-      <label for="Name">Subject</label>
-        <input type="text" placeholder="">
-      <textarea placeholder="Your message"></textarea>
-      <input type="submit">
+    <form>
+        <div class="fields">
+          <label for="Name">Your name</label>
+          <input type="email" id="Name" class="input-field" placeholder="">
+        </div>
+        <div class="fields">
+          <label for="email">Your email</label>
+          <input type="email" placeholder="" id="email"  class="input-field">
+        </div>
+        <label for="Name">Subject</label>
+          <input type="text" placeholder="">
+        <textarea placeholder="Your message"  class="input-field"></textarea>
+        <input type="submit">
+    </form>
   </section>
 </body>
 </html>
